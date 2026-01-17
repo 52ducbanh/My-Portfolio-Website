@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>52ducbanh</title>
+    <!-- Tailwind -->
+        <link rel="stylesheet" href="./src/output.css">
+    <link rel = "stylesheet" href = "style.css">
+</head>
+
+<!-- Main body -->
+<body class = "bg-[#0B1220] text-white">
+    <!-- Navigation bar -->
+    <nav class="navigation_bar z-50">
+        <span class="shine"></span>
+        <div class = "max-w-6xl mx-auto flex justify-between item-center p-4">
+            <h1 class = "text-xl font-bold text-cyan-400 mb-4">52ducbanh</h1>
+            <ul class = "flex gap-6 text-sm">
+                <li><a href = "#about" class = "tag active" >About</a></li>
+                <li><a href = "#skills" class = "tag" >Skills</a></li>
+                <li><a href = "#achievements" class = "tag" >Achievements</a></li>
+                <li><a href = "#projects" class = "tag" >Projects</a></li>
+                <li><a href = "#contact" class = "tag" >Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Main construction -->
+    <section class = "relative min-h-screen flex items-center justify-center gap-60 py-30 ">
+        <!-- Background -->
+        <img src="img/bg.jpg" alt="" class="absolute inset-0 w-full h-full object-cover opacity-30"
+        />
+        <!-- Brief-info -->
+        <div class = "relative">
+            <h2 class = "text-4xl md:text-6xl font-bold mb-4">
+                Hi, My name is Duc
+            </h2>
+            <h3 class = "text-4xl font-bold mb-4">I'm a <span id = "typing"></span></h3>
+            <p class = "text-slate-400 text-lg max-w-xl mx-auto mb-4">
+                Driven by an unyielding passion for excellence, I engineer elegant solutions designed to empower the community.
+            </p>
+            <button id = "scrollBtn" class = "about-btn">
+                About me!
+            </button>
+        </div>
+        <!-- Avartar -->
+        <div class = "relative">
+            <img src = "img/avartar.png" class = "avartar">
+        </div> 
+    </section>
+    <!-- About me -->
+    <section id = "about" class="max-w-4xl mx-auto mt-20 px-6 py-6 scroll-mt-20">
+        <div class="relative rounded-2xl border border-cyan-500/30  bg-gradient-to-br from-[#0b1220]/80 to-[#050b16]/80 backdrop-blur-xl p-8 shadow-[0_0_40px_rgba(34,211,238,0.15)]" >
+            <!-- Title -->
+            <h2 class="text-2xl font-semibold text-cyan-400 mb-4">
+            General Information
+            </h2>
+            <!-- Content -->
+                <!-- Full name -->
+                <div class="group flex items-center gap-4 py-4 border-b border-cyan-500/20">
+                    <span class="w-1 h-6 bg-cyan-400 rounded-full opacity-80"></span>
+
+                    <div class="flex justify-between w-full items-center">
+                    <span class="text-xs uppercase tracking-widest text-gray-400">
+                        Full name
+                    </span>
+                    <span class="text-base font-medium text-white">
+                        Tran Vu Duc
+                    </span>
+                    </div>
+                </div>
+
+                <!-- Address -->
+                <div class="group flex items-center gap-4 py-4 border-b border-cyan-500/10">
+                    <span class="w-1 h-5 bg-cyan-400/50 rounded-full"></span>
+
+                    <div class="flex justify-between w-full items-center">
+                    <span class="text-xs uppercase tracking-widest text-gray-400">
+                        Location
+                    </span>
+                    <span class="text-sm text-gray-300">
+                        Hanoi, Vietnam
+                    </span>
+                    </div>
+                </div>
+
+                <!-- Current role (HIGHLIGHT) -->
+                <div class="group flex items-center gap-4 py-4 border-b border-cyan-500/30">
+                    <span class="w-1 h-6 bg-cyan-400 rounded-full"></span>
+
+                    <div class="flex justify-between w-full items-center">
+                    <span class="text-xs uppercase tracking-widest text-cyan-400">
+                        Current role
+                    </span>
+                    <span class="text-base font-semibold text-cyan-400">
+                        Information Technology Student at UET – VNU
+                    </span>
+                    </div>
+                </div>
+
+                <!-- University -->
+                <div class="group flex items-center gap-4 py-4">
+                    <span class="w-1 h-5 bg-cyan-400/40 rounded-full"></span>
+
+                    <div class="flex justify-between w-full items-center">
+                    <span class="text-xs uppercase tracking-widest text-gray-400">
+                        University
+                    </span>
+                    <span class="text-sm text-gray-300">
+                        VNU University of Engineering and Technology
+                    </span>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!-- Skills -->
+    <section id = "skills" class = "scroll-mt-20">
+        <h2 class="text-2xl font-semibold text-cyan-400 mb-4 flex justify-center">
+            Skills
+        </h2>
+        <!-- Detailed -->
+        <div id="skill-card" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-4"></div>
+    </section>
+    <!-- Achievements -->
+    <section id = "achievements" class = "scroll-mt-20">
+        <h2 class="text-2xl font-semibold text-cyan-400 mb-4 flex justify-center">
+            Achievements
+        </h2>
+        <div id = "ac-card" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-4"></div>
+    </section>
+    <!-- Projects -->
+    <section id = "projects" class = "max-w-6xl mx-auto px-4 py-20">
+        <h2 class="text-2xl font-semibold text-cyan-400 mb-4 ">
+            My Project
+        </h2>
+        <a target="_blank" href = "https://github.com/52ducbanh/Portfolio-Website" id = "project-card" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-4"></a>
+    </section>
+    <!-- footer -->
+    <div class="w-full h-px bg-cyan-400"></div>
+    <section id = "contact" class = "bg-gray-800 py-2 ">
+        <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center items-start gap-10">
+            <!-- Quote -->
+            <div class="md:w-1/2 text-gray-300 italic">
+                <h2 class="text-[30px] font-semibold text-cyan-400 mb-4 ">
+                The quote that I cherish the most
+                </h2>
+                <p class = "text-gray-400 mb-4">
+                    - Learning endlessly from those people that I encounter is my best way to enhance myself.
+                </br>
+                    - Never give up. Let me see your attemption because you deserve to get it.
+                </p>
+            </div>
+            <!-- Contact -->
+            <div class="md:w-1/2 text-center md:text-center">
+                <h2 class="text-[30px] font-semibold text-cyan-400 mb-4 ">
+                Contact </h2>
+                <p class = "text-gray-400 mb-4">
+                    Feel free to reach out if you want to come :>
+                </p>
+                <!-- icons -->
+                <div class="flex justify-center gap-4 mb-4">
+                    <!-- Facebook -->
+                    <a target="_blank" href = "https://www.facebook.com/52ducbanh" class = "w-10 h-10 rounded-full bg-blue-800 flex item-center justify-center hover:bg-black transition">
+                        <svg class = "facebook" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M21.95 5.005l-3.306-.004c-3.206 0-5.277 2.124-5.277 5.415v2.495H10.05v4.515h3.317l-.004 9.575h4.641l.004-9.575h3.806l-.003-4.514h-3.803v-2.117c0-1.018.241-1.533 1.566-1.533l2.366-.001.01-4.256z"/></svg>
+                    </a>
+                    <!-- Github -->
+                    <a target="_blank" href = "https://github.com/52ducbanh" class = "w-10 h-10 rounded-full bg-slate-600 flex item-center justify-center hover:bg-black transition">
+                        <svg class = "github" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="Page-1" stroke="none" stroke-width="1" fill-rule="evenodd">
+                                <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)">
+                                    <g id="icons" transform="translate(56.000000, 160.000000)" >
+                                        <path d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+                    <!-- Gmail-->
+                    <a target="_blank" href = "mailto:52ducbanh@gmail.com" class = "w-10 h-10 rounded-full bg-red-500 flex item-center justify-center hover:bg-black transition">
+                        <svg class = "gmail" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 8L8.44992 11.6333C9.73295 12.4886 10.3745 12.9163 11.0678 13.0825C11.6806 13.2293 12.3194 13.2293 12.9322 13.0825C13.6255 12.9163 14.2671 12.4886 15.5501 11.6333L21 8M6.2 19H17.8C18.9201 19 19.4802 19 19.908 18.782C20.2843 18.5903 20.5903 18.2843 20.782 17.908C21 17.4802 21 16.9201 21 15.8V8.2C21 7.0799 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V15.8C3 16.9201 3 17.4802 3.21799 17.908C3.40973 18.2843 3.71569 18.5903 4.09202 18.782C4.51984 19 5.07989 19 6.2 19Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <h3 class = "text-sm font-semibold text-cyan-400 mb-4 text-center">© Trần Vũ Đức | All Rights Reserved</h3>
+    </section>
+    <!-- script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
