@@ -13,13 +13,14 @@ Link web: https://52ducbanh.github.io/My-Portfolio-Website
 
 ## 📂 Project Structure
 
-/
-├── index.html
-├── style.css
-├── script.js
-├── icons/
-├── favicon/
-└── img/
+root/
+├── index.html        # Main HTML file
+├── style.css         # Custom styles
+├── script.js         # JavaScript logic
+├── icons/            # Icons assets
+├── favicon/          # Favicon files
+└── img/              # Images
+
 
 ## 📌 Features
 - Responsive navigation bar for smooth section scrolling
