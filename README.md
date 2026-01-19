@@ -13,13 +13,13 @@ Link web: https://52ducbanh.github.io/My-Portfolio-Website
 
 ## 📂 Project Structure
 
-root/
-├── index.html        # Main HTML file
-├── style.css         # Custom styles
-├── script.js         # JavaScript logic
-├── icons/            # Icons assets
-├── favicon/          # Favicon files
-└── img/              # Images
+- root/
+- ├── index.html        # Main HTML file
+- ├── style.css         # Custom styles
+- ├── script.js         # JavaScript logic
+- ├── icons/            # Icons assets
+- ├── favicon/          # Favicon files
+- └── img/              # Images
 
 
 ## 📌 Features
