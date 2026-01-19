@@ -1,34 +1,50 @@
-Project Portfolio
+📁 Project 1: Portfolio Website
 
-I. Technology used: HTML, JS,CSS, Tailwind
+A personal portfolio website built to showcase my profile, skills, and projects.
+Link web: https://52ducbanh.github.io/My-Portfolio-Website
 
-II. Organizational structure:
-Folder:
-|-index.html
-|-style.css
-|-script.js
-|-/icons
-|-/img
+<img width="1919" height="1079" alt="Screenshot 2026-01-19 234920" src="https://github.com/user-attachments/assets/db950f64-3098-4071-953c-5f2a2130bdea" />
 
- 
-III. 3 main sections in html:
-1.	navigation bar
-2.	main construction
-3.	about me
-4.	skill
-5.	project
-6.	contact
+🛠 Technologies
 
-Detailed:
-1.	Navigation
- It has purpose to navigate to other section in web
-2. Main construction
- It is used to show brief info about me.
-3. About me
- The main purpose is to list the main information and the outstanding achievements,...
-4. Skill
- It is used to list the skill related to IT like front-end, back-end, competitive-programming, it support,...
-5. Project
- It makes a role in showing all the project that i have done like portfolio,
-6. Contact
- It will show all the contacts to me like GitHub, Facebook , Messenger
+. HTML
+. CSS
+. JavaScript
+. Tailwind CSS
+
+📂 Project Structure
+
+/Folder
+├── index.html
+├── style.css
+├── script.js
+├── icons/
+|── favicon/
+└── img/
+
+📌 Features
+
+. Responsive navigation bar for smooth section scrolling.
+. Clean and modern UI built with Tailwind CSS.
+. Well-structured sections for personal branding.
+
+📄 Sections Overview
+
+. Navigation Bar
+	Enables navigation to different sections of the website.
+. Main Section
+	Displays a brief introduction and basic personal information.
+. About Me
+	Contains detailed personal information and notable achievements.
+. Skills
+	Lists IT-related skills such as front-end, back-end, competitive programming, and IT support.
+. Projects
+	Showcases projects I have completed, including this portfolio website.
+. Contact
+	Provides contact methods via GitHub, Facebook, and Messenger.
+. My CV
+	Displays the detailed CV and other information.
+	
+🚀 Usage
+
+Simply open index.html in your browser or deploy it using GitHub Pages.
