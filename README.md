@@ -37,4 +37,4 @@ Link web: https://52ducbanh.github.io/My-Portfolio-Website
 - **My CV**: Display the detailed CV and other information
 
 ## 🚀 Usage
-Simply open `index.html` in your browser or deploy it using GitHub Pages.
+Simply open `index.html` in your browser or deploy it using GitHub Pages. 
