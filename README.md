@@ -1,7 +1,7 @@
 📁 Project 1: Portfolio Website
 
 A personal portfolio website built to showcase my profile, skills, and projects.
-Link web: https://52ducbanh.github.io/My-Portfolio-Website
+Link web: https://52ducbanh.github.io/Project-1-Portfolio-Website/
 
 <img width="1919" height="1079" alt="Screenshot 2026-01-19 234920" src="https://github.com/user-attachments/assets/db950f64-3098-4071-953c-5f2a2130bdea" />
 
